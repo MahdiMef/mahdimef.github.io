@@ -5,8 +5,13 @@ body {
 
 }
 
-h1,h2,h3,h4,h5,h6{
+h1{
+  font-family:Ubuntu Regular;
+
+}
+h2,h3,h4,h5,h6{
   color: black;
+  font-family:Ubuntu light;
 }
 ul {
   list-style-type: none;
@@ -17,7 +22,7 @@ ul {
   position: fixed;
   height: 100%;
   overflow: auto;
-  font-family:cursive;
+  font-family:arial;
   font-size: 15;
   background-color: #fedbd0;
 
@@ -30,7 +35,7 @@ li a {
   background-color: #442c2e;
   padding: 8px 16px;
   text-decoration: none;
-  font-family:cursive;
+  font-family:Ubuntu Regular;
   margin-right: 15px;
 
 }

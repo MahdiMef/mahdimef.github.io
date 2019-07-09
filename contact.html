@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css" type="text/css" media="only screen and (min-width: 900px)" />
+  <link rel="stylesheet" href="mobile.css" media="only screen and (min-width: 0px) and (max-width: 900px)" >
 </head>
 <body>
 
@@ -11,6 +14,8 @@
   <li><a  href="myskills.html"> My Skills </a></li>
   <li><a  class="active" href="contact.html"> Contact </a></li>
   </ul>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
 
 <div style="margin-left:25%;padding:1px 16px;height:500px;">
   <h1> You can contact me with the following methods ! </h1>
@@ -18,4 +23,21 @@
 
 </div>
 </body>
+<div id="mySidenav" class="sidenav">
+  <a href="javaasscript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <li><a   href="index.html"> Home Page </a></li>
+  <li><a  href="aboutme.html"> About Me </a></li>
+  <li><a  href="myskills.html"> My Skills </a></li>
+  <li><a  href="contact.html"> Contact </a></li>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </html>

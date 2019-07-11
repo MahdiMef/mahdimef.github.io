@@ -7,13 +7,24 @@ body {
 }
 
 h1{
-  font-family:Ubuntu Regular;
+  font-family:Ubuntu ;
 
 }
 h2,h3,h4,h5,h6{
   color: black;
   font-family:Ubuntu light;
 }
+div.fixed {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  bottom: 0px;
+  padding-right:8px;
+  padding-left:8px;
+  border: 0px solid #8AC007;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;

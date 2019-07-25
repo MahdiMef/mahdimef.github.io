@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  /* background-image: url(bg.png); */
+  background-color: #feeae6;
+  /* background-color: #050919; */
+
+}
+
+h1{
+  font-family:Ubuntu Regular;
+}
+
+div.fixed {
+  position: fixed;
+  background-color: #ffffff;
+  height: auto;
+  width: 100%;
+  bottom: 0px;
+  padding-right:8px;
+  padding-left:8px;
+  border: 0px solid #8AC007;
+}
+
+h2,h3,h4,h5,h6{
+  color: black;
+  font-family:Ubuntu light;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  /* background-color: #f1f1f1; */
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family:arial;
+  font-size: 15;
+  background-color: #fedbd0;
+
+
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  background-color: #442c2e;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family:Ubuntu Regular;
+  margin-right: 15px;
+
+}
+
+li a.active {
+  background-color: #f9aa33;
+  color: white;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: yellow;
+  padding: 15px;
+  text-align: center;
+
+}
+span{visibility: hidden;}
+
+#mySidenav{visibility: hidden;}
+</style>
